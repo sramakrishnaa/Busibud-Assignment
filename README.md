@@ -33,6 +33,10 @@ To run and view the web page, please follow these steps:
 4. Locate the `index.html` file and open it with your web browser.
 5. The web page will be displayed, and you can interact with its different elements and features.
 
+## Contributions
+
+Contributions to this project are welcome! If you find any issues or have suggestions for improvements, please feel free to fork the repository, make your desired changes, and submit a pull request.
+
 ## Additional Resources
 
 If you encounter any issues or have any questions, feel free to refer to the following resources:
