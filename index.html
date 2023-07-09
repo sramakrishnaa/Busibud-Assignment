@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive HTML</title>
+
+  <!-- Boot Strap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;900&display=swap" rel="stylesheet">
+
+
+  <!-- fontawsome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+  <section id="title">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-md">
+      <div class="container-fluid flex-column">
+        <div class="d-flex justify-content-center w-100">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nav1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nav2</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Nav3
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Nav3.1</a></li>
+                <li><a class="dropdown-item" href="#">Nav3.2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Nav4
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Nav4.1</a></li>
+                <li><a class="dropdown-item" href="#">Nav4.2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nav5</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nav6</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nav7</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Nav8</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="titlediv">
+      <div class="container-fluid">
+        <div class="row titlerow">
+          <div class="col-lg-6 titlecol">
+            <h1 class="titlehead">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+            <h5 class="titlesubhead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo
+              est.Pellentesque
+              eu placerat
+              mauris.
+              Etiam ut maximus ante. Suspendisse varius dolor nec bibendum dignissim. Proin in diam a justo sollicitudin
+              mattis eu sagittis nunc. In hac habitasse platea dictumst.</h5>
+            <div class="titlebtn">
+              <button type="button" class="btn btn-primary btn-lg">Check Pricing</button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="titleimage" src="images/titleimage.png" alt="titleimage">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- feature Section -->
+  <section id="features">
+
+    <div class="curved-div">
+      <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(248, 250, 252, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(248, 250, 252, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+          d="M0,196L80,187.8C160,180,320,163,480,196C640,229,800,310,960,294C1120,278,1280,163,1440,171.5C1600,180,1760,310,1920,334.8C2080,359,2240,278,2400,236.8C2560,196,2720,196,2880,204.2C3040,212,3200,229,3360,269.5C3520,310,3680,376,3840,351.2C4000,327,4160,212,4320,204.2C4480,196,4640,294,4800,294C4960,294,5120,196,5280,196C5440,196,5600,294,5760,343C5920,392,6080,392,6240,343C6400,294,6560,196,6720,171.5C6880,147,7040,196,7200,204.2C7360,212,7520,180,7680,179.7C7840,180,8000,212,8160,253.2C8320,294,8480,343,8640,302.2C8800,261,8960,131,9120,106.2C9280,82,9440,163,9600,204.2C9760,245,9920,245,10080,245C10240,245,10400,245,10560,212.3C10720,180,10880,114,11040,98C11200,82,11360,114,11440,130.7L11520,147L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z">
+        </path>
+      </svg>
+    </div>
+
+
+    <div class="featuresdiv">
+      <div class="container-fluid">
+        <h2 class="feahead">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
+        <div class="row fearow">
+          <div class="col col-lg-4 col-sm-12">
+            <div class="feacol">
+              <h4 class="feacolheadtext">Lorem ipsum dolor sit .</h4>
+              <h6 class="feacolsubheadtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo
+                est.Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                dignissim. Proin in diam a justo sollicitudin mattis eu sagittisnunc. In hac habitasse.</h6>
+            </div>
+          </div>
+          <div class="col col-lg-4 col-sm-12">
+            <div class="feacol">
+              <h4 class="feacolheadtext">Lorem ipsum dolor sit .</h4>
+              <h6 class="feacolsubheadtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo
+                est.Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                dignissim. Proin in diam a justo sollicitudin mattis eu sagittisnunc. In hac habitasse.</h6>
+            </div>
+          </div>
+          <div class="col col-lg-4 col-sm-12">
+            <div class="feacol">
+              <h4 class="feacolheadtext">Lorem ipsum dolor sit .</h4>
+              <h6 class="feacolsubheadtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo
+                est.Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                dignissim. Proin in diam a justo sollicitudin mattis eu sagittisnunc. In hac habitasse.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="featuresdiv2">
+      <div class="container-fluid">
+        <h2 class="feahead">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
+        <div class="feaimgdiv">
+          <div class="row feaimgrow">
+            <div class="col-lg-4 feaimgcol">
+              <div class="feaimgtext">
+                <img src="images/art1.png" class="feaimg" alt="art2">
+                <h4 class="feaimgheadtext">Lorem ipsum dolor sit .</h4>
+                <h6 class="feaimgsubtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                  Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                  dignissim.
+                  Proin in diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</h6>
+              </div>
+            </div>
+            <div class="col-lg-4 feaimgcol">
+              <div class="feaimgtext">
+                <img src="images/art2.png" class="feaimg" alt="art2">
+                <h4 class="feaimgheadtext">Lorem ipsum dolor sit .</h4>
+                <h6 class="feaimgsubtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                  Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                  dignissim.
+                  Proin in diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</h6>
+              </div>
+            </div>
+            <div class="col-lg-4 feaimgcol">
+              <div class="feaimgtext">
+                <img src="images/art3.png" class="feaimg art3" alt="art2">
+                <h4 class="feaimgheadtext">Lorem ipsum dolor sit .</h4>
+                <h6 class="feaimgsubtext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                  Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                  dignissim.
+                  Proin in diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="items">
+          <h2 class="feahead" style="padding-bottom: 3%;">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
+          <div class="item">
+            <div class="itemrow">
+              <div class="row" style="padding: 2% 0%;">
+                <div class="col-lg-7 itemimgrow">
+                  <img src="images/item1.png" class="itemimg" alt="item1">
+                  <h4 class="itemhead itemimg">Lorem ipsum dolor sit .</h4>
+                  <h6 class="itemsubhead">adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut
+                    maximus
+                    ante. Suspendisse varius dolor nec bibendum dignissim</h6>
+                  <div class="">
+                    <button type="button" class="btn btn-primary btn-lg">Check Pricing</button>
+                  </div>
+                </div>
+                <div class="col-lg-5"></div>
+              </div>
+            </div>
+
+            <div class="itemrow">
+              <div class="row" style="padding: 2% 0%;">
+                <div class="col-lg-7"></div>
+                <div class="col-lg-5 itemimgrow2">
+                  <img src="images/item2.png" class="itemimg" alt="item2">
+                  <h4 class="itemhead itemimg">Lorem ipsum dolor sit .</h4>
+                  <h6 class="itemsubhead">adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut
+                    maximus
+                    ante. Suspendisse</h6>
+                  <div class="">
+                    <button type="button" class="btn btn-primary btn-lg">Check Pricing</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="itemrow">
+              <div class="row" style="padding: 2% 0%;">
+                <div class="col-lg-7 itemimgrow">
+                  <img src="images/item3.png" class="itemimg" alt="item3">
+                  <h4 class="itemhead itemimg">Lorem ipsum dolor sit .</h4>
+                  <h6 class="itemsubhead">adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut
+                    maximus
+                    ante. Suspendisse varius dolor nec bibendum dignissim</h6>
+                  <div class="">
+                    <button type="button" class="btn btn-primary btn-lg">Check Pricing</button>
+                  </div>
+                </div>
+                <div class="col-lg-5"></div>
+              </div>
+            </div>
+
+            <div class="itemrow">
+              <div class="row" style="padding: 2% 0%;">
+                <div class="col-lg-7"></div>
+                <div class="col-lg-5 itemimgrow2">
+                  <img src="images/item4.png" class="itemimg" alt="item4">
+                  <h4 class="itemhead itemimg">Lorem ipsum dolor sit .</h4>
+                  <h6 class="itemsubhead">adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris. ut
+                    maximus
+                    ante. Suspendisse</h6>
+                  <div class="">
+                    <button type="button" class="btn btn-primary btn-lg">Check Pricing</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+        <section id="slides">
+          <h2 class="feahead">Lorem ipsum dolor sit.</h2>
+
+          <div class="slideback">
+            <img src="images/slideimg1.png" class="itemimg slidetopimg" alt="slideimg1">
+            <h4 class="slidehead itemimg">Lorem ipsum dolor sit .</h4>
+          </div>
+          <div id="carouselExampleDark" class="carousel carousel-dark " data-bs-ride="true">
+
+            <div class="carousel-inner slide">
+
+              <!-- slide1 -->
+              <div class="carousel-item  active">
+
+                <div class="slidediv">
+                  <div class="dpdiv">
+                    <img class="itemimg" src="images/dp1.png" alt="Jhon Doe">
+                    <div class="itemimg dptext">
+                      <h6 style="font-weight: bold;">Jhon Doe</h6>
+                      <h6 style="color: #615C5C;">CEO</h6>
+                    </div>
+                    <div class="itemimg dptext" style="float: right;">
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    </div>
+                  </div>
+                  <div class="dptextdiv">
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                      Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                      dignissim.
+                      Proin in diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide2 -->
+              <div class="carousel-item  active">
+
+                <div class="slidediv">
+                  <div class="dpdiv">
+                    <img class="itemimg" src="images/dp2.png" alt="Amanda green">
+                    <div class="itemimg dptext">
+                      <h6 style="font-weight: bold;">Amanda green</h6>
+                      <h6 style="color: #615C5C;">Operations Manager</h6>
+                    </div>
+                    <div class="itemimg dptext" style="float: right;">
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                      <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                    </div>
+                  </div>
+                  <div class="dptextdiv">
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                      Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                      dignissim.
+                      Proin in diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</h6>
+                  </div>
+                </div>
+              </div>
+
+              <!-- slide3 -->
+              <div class="carousel-item  active">
+
+                <div class="slidediv">
+                  <div class="dpdiv">
+                    <img class="itemimg" src="images/dp3.png" alt="Jhon Doe">
+                    <div class="itemimg dptext" style="width: 80%;">
+                      <div style="float: right; ">
+                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd43b;"></i>
+                      </div>
+                      <h6 style="font-weight: bold;">Sam Cooper</h6>
+                      <h6 style="color: #615C5C;">Customer Service Manager</h6>
+                    </div>
+
+                  </div>
+                  <div class="dptextdiv">
+                    <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                      Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec bibendum
+                      dignissim.
+                      Proin in diam a justo sollicitudin mattis eu sagittis nunc. In hac habitasse platea dictumst.</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+
+
+        <section id="footer">
+          <h2 class="feahead">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
+
+          <div class="footerdiv">
+            <div class="row footerrow">
+              <div class="col-lg-4 col-sm-12 footercol">
+                <img style="padding: 5% 0%;" src="images/footer1.png" alt="Forms On Fire">
+                <h4 class="footertext">Forms On Fire</h4>
+              </div>
+
+              <div class="col-lg-4 col-sm-12 footercol">
+                <img style="width: 48%;" src="images/footer2.png" alt="">
+                <h4 class="footertext">ElectroNeek Studio IDE</h4>
+              </div>
+
+              <div class="col-lg-4 col-sm-12 footercol">
+                <img style="padding: 2% 0% 5%; width: 20%;" src="images/footer3.png" alt="">
+                <h4 class="footertext">Jot form</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section id="bottom">
+        <div class="bottomdiv">
+            <h4 class="bottomdivtext">&copy Helplama 2021</h4>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="curved-div">
+      <svg id="wave" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 490" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+            <stop stop-color="rgba(248, 250, 252, 1)" offset="0%"></stop>
+            <stop stop-color="rgba(248, 250, 252, 1)" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+          d="M0,196L80,187.8C160,180,320,163,480,196C640,229,800,310,960,294C1120,278,1280,163,1440,171.5C1600,180,1760,310,1920,334.8C2080,359,2240,278,2400,236.8C2560,196,2720,196,2880,204.2C3040,212,3200,229,3360,269.5C3520,310,3680,376,3840,351.2C4000,327,4160,212,4320,204.2C4480,196,4640,294,4800,294C4960,294,5120,196,5280,196C5440,196,5600,294,5760,343C5920,392,6080,392,6240,343C6400,294,6560,196,6720,171.5C6880,147,7040,196,7200,204.2C7360,212,7520,180,7680,179.7C7840,180,8000,212,8160,253.2C8320,294,8480,343,8640,302.2C8800,261,8960,131,9120,106.2C9280,82,9440,163,9600,204.2C9760,245,9920,245,10080,245C10240,245,10400,245,10560,212.3C10720,180,10880,114,11040,98C11200,82,11360,114,11440,130.7L11520,147L11520,490L11440,490C11360,490,11200,490,11040,490C10880,490,10720,490,10560,490C10400,490,10240,490,10080,490C9920,490,9760,490,9600,490C9440,490,9280,490,9120,490C8960,490,8800,490,8640,490C8480,490,8320,490,8160,490C8000,490,7840,490,7680,490C7520,490,7360,490,7200,490C7040,490,6880,490,6720,490C6560,490,6400,490,6240,490C6080,490,5920,490,5760,490C5600,490,5440,490,5280,490C5120,490,4960,490,4800,490C4640,490,4480,490,4320,490C4160,490,4000,490,3840,490C3680,490,3520,490,3360,490C3200,490,3040,490,2880,490C2720,490,2560,490,2400,490C2240,490,2080,490,1920,490C1760,490,1600,490,1440,490C1280,490,1120,490,960,490C800,490,640,490,480,490C320,490,160,490,80,490L0,490Z">
+        </path>
+      </svg>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

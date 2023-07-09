@@ -1,0 +1,389 @@
+/* Body */
+body {
+    background-color: #FFFFFF;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.container-fluid {
+    padding: 0% 7%;
+}
+
+
+
+/* Navbar */
+.navbar {
+    background-color: #FFFFFF;
+    padding-top: 1.5%;
+    border-bottom: 1px solid #707070;
+    font-family: 'Segoe UI';
+}
+
+.navbar-brand {
+    width: 164px;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.nav-item {
+    font-weight: bold;
+    color: black;
+    padding: 5px 15px;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+
+/* Title Section */
+/* .titlediv {
+    padding-top: 9%;
+} */
+
+.titleimage {
+    width: 35%;
+    position: absolute;
+    right: 10%;
+    z-index: -2;
+}
+
+.titlerow {
+    margin: 0% 7%;
+}
+
+.titlecol {
+    /* position: relative; */
+    padding: 7% 5% 5% 2%;
+    z-index: 0;
+}
+
+.titlehead {
+    font-size: 40px;
+    font-weight: 900;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.titlesubhead {
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 2%;
+}
+
+.titlebtn {
+    padding-top: 5%;
+}
+
+.btn {
+    background-color: #1492E6;
+    width: 247px;
+    /* height: 65px; */
+    border-radius: 33px;
+    font-size: 20px;
+    padding: 2%;
+    box-shadow: #00000029 0px 18px 18px;
+}
+
+
+/* Features Section */
+#features {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    z-index: -1;
+}
+
+.curved-div {
+    z-index: -1;
+}
+
+.featuresdiv {
+    background-color: #F8FAFC;
+}
+
+.featuresdiv2 {
+    /* padding-bottom: 10%; */
+    color: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.feahead {
+    font-size: 27px;
+    font-weight: bolder;
+    padding-bottom: 5%;
+    opacity: 0;
+    transform: translateY(-40px);
+    transition: all 1s ease-out;
+}
+
+.feaimgdiv {
+    padding-bottom: 7%;
+}
+
+.fearow {
+    margin: 0% 15%;
+    padding-bottom: 10%;
+}
+
+.col {
+    padding: 0% 2% 3%;
+}
+
+.feacol {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    padding: 5%;
+    box-shadow: 0 2px 4px #00000029;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 1s ease-out;
+}
+
+.feacolheadtext {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7% 2% 7%;
+}
+
+.feacolsubheadtext {
+    font-size: 16px;
+    text-align: left;
+    padding: 0% 5% 7%;
+    font-weight: small;
+}
+
+
+/* features image */
+.feaimgrow {
+    margin: 0% 10%;
+}
+
+.feaimgcol {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-out;
+
+}
+
+.feaimgtext {
+    text-align: left;
+}
+
+.feaimg {
+    width: 80%;
+}
+
+.art3 {
+    width: 70%;
+}
+
+.feaimgheadtext {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12% 0% 5%;
+}
+
+.feaimgsubtext {
+    padding-bottom: 10%;
+}
+
+
+/* Items Section */
+
+.item {
+    text-align: left;
+    padding: 0% 10% 12%;
+}
+
+.itemhead {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+
+.itemsubhead {
+    font-size: 18px;
+    padding: 3% 0%;
+}
+
+.itemimg {
+    display: inline-block;
+    vertical-align: middle;
+}
+.itemimgrow{
+    opacity: 0;
+    transform: translateX(-30px);
+    transition: all 1s ease-out;
+}
+.itemimgrow2{
+    opacity: 0;
+    transform: translateX(30px);
+    transition: all 1s ease-out;
+}
+
+
+/* slides Section*/
+.slideback {
+    text-align: left;
+    background-color: #F8FAFC;
+    width: 100%;
+    height: 363px;
+    border-radius: 42px;
+    box-shadow: #00000029 0px 12px 28px;
+}
+
+.slidetopimg {
+    margin-left: 5%;
+    margin-top: 2%;
+    width: 70px;
+}
+
+.slidehead {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1.5% 1.5% 0%;
+}
+
+.slidediv {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    box-shadow: #00000029 0px 12px 28px;
+    text-align: left;
+    width: 50%;
+
+}
+
+.slide {
+    padding: 2% 5% 7% 10%;
+}
+
+.carousel {
+    position: relative;
+    z-index: 2;
+    top: -200px;
+}
+
+
+.dpdiv {
+    padding: 5% 7% 2%;
+    font-size: 13px;
+}
+
+.dptext {
+    padding-top: 4%;
+    margin-left: 2%;
+}
+
+.dptextdiv {
+    padding: 0% 7% 5%;
+    font-size: 13px;
+}
+
+.carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    background-color: #000000;
+    border-radius: 50%;
+    box-shadow: #00000029 0px 7px 17px;
+}
+
+
+/* Footer Section */
+.footerimg {
+    width: 20%;
+}
+
+.footerrow {
+    padding: 5% 10% 15%;
+}
+
+.footertext {
+    font-size: 18px;
+    font-weight: bold;
+}
+.footercol{
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 1s ease-out;
+}
+
+.bottomdiv {
+    /* text-align: center; */
+    background-color: #000000;
+    width: 100%;
+    height: 269px;
+}
+
+.bottomdivtext {
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+
+
+.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* Small Screen */
+@media (max-width : 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .titlehead {
+        padding-top: 10%;
+    }
+
+    .titleimage {
+        position: absolute;
+        width: 0%;
+        z-index: -5;
+    }
+
+    #features {
+        position: static;
+    }
+
+    .feaimgtext {
+        position: static;
+        text-align: center;
+    }
+
+    .feaimg {
+        width: 50%;
+    }
+
+    .feaimgdiv {
+        padding: 0% 7% 15%;
+    }
+
+    .feaimgheadtext {
+        padding: 5% 0% 2%;
+    }
+
+    .item {
+        text-align: center;
+    }
+
+    .itemrow {
+        padding: 0% 10% 15%;
+    }
+
+    .slidediv {
+        width: 100%;
+    }
+
+    .footercol {
+        padding-bottom: 7%;
+    }
+}
